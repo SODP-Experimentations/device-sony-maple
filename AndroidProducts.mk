@@ -12,12 +12,12 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-PRODUCT_MAKEFILES := $(LOCAL_DIR)/aosp_g8141.mk \
-                     $(LOCAL_DIR)/aosp_g8142.mk
+PRODUCT_MAKEFILES := $(LOCAL_DIR)/lineage_maple.mk \
+                     $(LOCAL_DIR)/lineage_maple_dsds.mk
 
 COMMON_LUNCH_CHOICES += \
-    aosp_g8141-eng \
-    aosp_g8141-userdebug \
-    aosp_g8142-eng \
-    aosp_g8142-userdebug
+    lineage_maple-eng \
+    lineage_maple-userdebug \
+    lineage_maple_dsds-eng \
+    lineage_maple_dsds-userdebug
 
